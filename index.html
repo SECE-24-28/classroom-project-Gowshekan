@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" contents="This is the description of the webpage.">
     <meta name="Keywords" content="HTML, CSS, JavaScript,MERN">
-    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/"/>
+    <!--<meta http-equiv="refresh" content="50; url=https://www.youtube.com/"/>-->
     <title>Document</title>
     
 </head>
@@ -38,11 +38,14 @@
     <dt>JavaScript</dt>
     <dd>A programming language for adding interactivity to web pages</dd>
     <form action="/submit" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" minlength="5" maxlength="10" required><br><br>
-        <label for="email"required>Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" minlength="5" maxlength="10" required><br><br>
+            <label for="email"required>Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset> 
     </form>
     <a href="index1.html" align="center" target="_blank">Link</a>
 </body>
