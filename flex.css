@@ -1,0 +1,10 @@
+.flexcontainer{
+    border: 1px solid red;
+}
+.flexitem{
+    background-color: yellow;
+    border: 2px solid red;
+    color:red;
+    font-size: 24px;
+    height:60px;
+}
