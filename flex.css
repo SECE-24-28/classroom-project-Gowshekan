@@ -8,10 +8,10 @@
     align-items: center;
     gap: 10px;
     flex-direction: column-reverse;
-    justify-content: flex-end;*/
+    justify-content: flex-end;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center;
+    align-content: center;*/
 }
 .flexitem{
     background-color: yellow;
@@ -20,4 +20,18 @@
     font-size: 24px;
     height:100px;
     width:200px;
+}
+.flexitem:nth-child(1){
+    background-color: rgb(24, 159, 24);
+    color: white;
+    order:1;
+
+}
+.flexitem:nth-child(1)
+{
+    order: 1;
+}
+.flexitem:nth-child(2)
+{
+    align-self: center;
 }
