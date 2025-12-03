@@ -1,5 +1,10 @@
 .flexcontainer{
     border: 1px solid red;
+    display:flex;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+
 }
 .flexitem{
     background-color: yellow;
