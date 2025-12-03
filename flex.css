@@ -2,9 +2,12 @@
     border: 1px solid red;
     display:flex;
     height: 90vh;
-    justify-content: space-around;
+    gap: 5px;
+    justify-content: center;
     align-items: center;
-
+    gap: 10px;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 .flexitem{
     background-color: yellow;
