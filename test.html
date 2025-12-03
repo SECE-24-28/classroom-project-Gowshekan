@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My HTML-only Website</h1>
+    <h4>Simple site build using only HTML tags-no CSS</h4>
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+    <h3 id="home">Welcome</h3>
+    <p>This page demmonstrates layout and content using only HTML tags.Use Headings lists, tables, and form to present information without series</p>
+    <h3>About This Page</h3>
+    <p>The page use semantic tags &ltheader&gt, &ltnav&gt, &ltmain&gt, &ltarticle&gt, &ltaside&gt, and &ltfotter&gt</p>
+
+    <h3 id="about">Key Points</h3>
+    <ol>
+    <li>Readable structure for readers and Search Engines</li>
+    <li>No External styles-browser default style only</li>
+    <li>Works well for quick prototype or content-focus pages</li>
+    </ol>
+
+    <h2 id="features">Features (HTML-only)</h2>
+    
+    <dt>Semantic Layout</dt>
+    <dd>Clean structuring using sectioning element</dd>
+    <dt>Accesible Navigation</dt>
+    <dd>Keyboard and screen-reader-friendly links and heading</dd>
+    <dt>Forms and Tables</dt>
+    <dd>Collect input and show tabular data using plain HTML</dd>
+
+    <h3>Sample Data Table</h3>
+    <table border="2">
+        <head>
+            <thead>
+            <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price(INR)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>Stationary</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Pen</td>
+                <td>stationary</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Backpack</td>
+                <td>Accessories</td>
+                <td>799</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Quick Links</h3>
+    <ul>
+    <li><a href="home">See features </a></li>
+    <li><a href="#about">Contact us</a></li>
+    <li><a href="#features">More About this Demo</a></li>
+    </ul>
+    <h3>Contact</h3>
+    <p>If you like to get in touch, Fill this simple form(no styling)</p>
+        <form action="/submit" method="post" id="contact">
+        <fieldset>
+            <legend>Contact form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" minlength="5" maxlength="10" required><br><br>
+            <label for="email"required>Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <input type="message" id="message" name="message" rows="10" cols="30"><br><br>
+            <textarea id="message" name="message" rows="10" cols="30"></textarea><br><br>
+            <input type="radio" id="Email" name="contact" value="Email" checked>
+            <label for="Email">Email</label><br>
+            <input type="radio" id="Phone" name="contact" value="Phone">
+            <label for="Phone">Phone</label><br><br>
+            <input type="button" value="send">
+        </fieldset> 
+    </form>
+<footer>
+    <p>&copy; 2025 Gowshekan HTML Only Website</p>
+
+
+</body>
+</html>
