@@ -23,3 +23,24 @@ setTimeout(() => {
 }, 2000);*/
 
 //promise
+//state
+//1.pending
+//2.fulfilled
+//3.rejected
+//promice pass two parametwers
+const myPromise=new Promise((resolve, reject) =>{
+    //async operation
+    let a=10;
+    let b=20;
+    if(a===b){
+        resolve("Promise resolved: a is equal to b");
+    }else{
+        reject("Promise rejected: a is not equal to b");
+    }
+});
+//consume the promise
+myPromise.then((meaage ) =>{
+    console.log("then:", meaage);
+}).catch((error) =>{
+    console.log("catch:", error);
+});
